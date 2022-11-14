@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Intro section with dropdown navigation</title>
+</head>
+
+<body class="Bg-Cl-Alw">
+    <header class="Bg-Cl-Alw">
+        <img src="./images/logo.svg" alt="logo" class="cl-logo" />
+        <button class="menu Bg-Cl-Alw" id="icon-menu">
+            <img src="./images/icon-menu.svg" alt="icon-menu" class="" />
+        </button>
+        <nav class="nav-bar Bg-Cl-Alw">
+            <button class="close Bg-Cl-Alw" id="icon-close-menu">
+                <img src="./images/icon-close-menu.svg" alt="icon-close-menu" class="toggle-icon" />
+            </button>
+            <div class="flex">
+                <ul class="cl-nav-ul">
+                    <li class="cl-nav-ul-li m-x-nav-li">
+                        <a href="#" class="cl-nav-ul-li-item" aria-expanded="true">Features<img
+                                src="./images/icon-arrow-down.svg" alt="" class="arrow-up" /></a>
+                        <ul class="cl-ul-features cl-ul-features-ul Bg-Cl-Alw" id="featuresList">
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <a href="#" class="a-href">
+                                    <span class="list-span">
+                                        <img src="./images/icon-todo.svg" alt="" class="list-icon" /></span>
+                                    <p>Todo List</p>
+                                </a>
+                            </li>
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <a href="#" class="a-href">
+                                    <span class="list-span"><img src="./images/icon-calendar.svg" alt=""
+                                            class="list-icon" /></span>
+                                    <p>Calender</p>
+                                </a>
+                            </li>
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <a href="#" class="a-href">
+                                    <span class="list-span">
+                                        <img src="./images/icon-reminders.svg" alt="" class="list-icon" /></span>
+                                    <p>Reminder</p>
+                                </a>
+                            </li>
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <a href="#" class="a-href">
+                                    <span class="list-span">
+                                        <img src="./images/icon-planning.svg" alt="" class="list-icon" /></span>
+                                    <p>Planning</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cl-nav-ul-li m-x-nav-li">
+                        <a href="#" class="cl-nav-ul-li-item" aria-expanded="true">Company<img
+                                src="./images/icon-arrow-down.svg" alt="" class="arrow-up" /></a>
+
+                        <ul class="cl-ul-features cl-ul-company">
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <p>History</p>
+                            </li>
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <p>Our Team</p>
+                            </li>
+                            <li class="cl-ul-features-li m-x-features-li">
+                                <p>Blog</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cl-nav-ul-li m-x-nav-li"><a href="#">Careers</a></li>
+                    <li class="cl-nav-ul-li m-x-nav-li"><a href="#">About</a></li>
+                </ul>
+                <span class="cl-login-box"><a href="#" class="m-x-login">Login</a><a href="#"
+                        class="cl-a-reg m-x-login">Register</a></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="details">
+            <h1 class="heading"><span class="heading-span">Make</span> remote work</h1>
+            <p class="cl-details-box-p">
+                Get your team in sync, no matter your location. Streamline processes,
+                create team rituals, and watch productivity soar.
+            </p>
+            <span class="cl-span-learn"><a href="#" class="cl-a-lm">Learn more</a></span>
+            <div class="cl-div-clbox">
+                <img src="./images/client-databiz.svg" alt="" class="m-x1" />
+                <img src="./images/client-audiophile.svg" alt="" class="m-x1" />
+                <img src="./images/client-meet.svg" alt="" class="m-x1" />
+                <img src="./images/client-maker.svg" alt="" class="m-x1" />
+            </div>
+        </section>
+        <section class="image">
+            <picture>
+                <source media="(min-width:769px)" srcset="./images/image-hero-desktop.png" />
+
+                <img src="./images/image-hero-mobile.png" alt="" height="500" width="470" class="cl-img-hero" />
+            </picture>
+        </section>
+    </main>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">@infiniteltd</a>.
+    </div>
+
+    <!-- js link -->
+    <script src="app.js"></script>
+</body>
+
+</html>
